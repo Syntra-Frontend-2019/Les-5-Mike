@@ -7,6 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h3>Title</h3>
+    <input type="text" id="inputTitle">
+    <h3>Todo</h3>
+    <textarea name="tekst" id="inputDescription" cols="30" rows="10"></textarea>
+    <br>
+    <button>Toevoegen</button>
+
+    <ul id="list">
+
+    </ul>
+    <script>
+
+        var input1 = document.querySelector("#inputTitle").value;
+        var input2 = document.querySelector("#inputDescription").value;
+        var task = {};
+        task.title = input1;
+        task.description = input2;
+
+        
+    </script>
 </body>
 </html>
